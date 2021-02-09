@@ -6,7 +6,7 @@ import Aux from '../../hoc/Auxi';
 const layout = (props) => (
     <Aux>
         <div>Toolbar, SideDrawer, Backdrop</div>
-        <main className={classes.Content}>
+        <main className="Content">
             {props.children}
         </main>
     </Aux >
