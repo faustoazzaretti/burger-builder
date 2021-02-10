@@ -7,10 +7,12 @@ const toolbar = (props) => (
     <header className="Toolbar">
         <div>MENU</div>
         <div className="Logo">
-            <Logo />
+            <Logo heigth="80%" />
         </div>
-        <NavigationItems />
-    </header>
+        <div className="DesktopOnly">
+            <NavigationItems />
+        </div>
+    </header >
 );
 
 export default toolbar;
